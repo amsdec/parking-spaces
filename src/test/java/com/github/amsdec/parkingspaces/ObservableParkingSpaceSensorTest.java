@@ -9,13 +9,13 @@ import static org.mockito.Mockito.verify;
 import org.junit.Before;
 import org.junit.Test;
 
-public class ParkingSpaceSensorTest {
+public class ObservableParkingSpaceSensorTest {
 
-    private ParkingSpaceSensor sensor;
+    private ObservableParkingSpaceSensor sensor;
 
     @Before
     public void setup() {
-        this.sensor = new ParkingSpaceSensor();
+        this.sensor = new ObservableParkingSpaceSensor();
     }
 
     @Test
